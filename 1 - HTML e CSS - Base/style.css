@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-color: black;
+  display: flex;
+
+  main {
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.text {
+  max-width: 615px;
+  color: #f6f6f6;
+
+  .text-title {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+    margin-bottom: 40px;
+  }
+
+  .titulo-destaque {
+    color: #22d4fd;
+  }
+
+  .text-base {
+    color: #f6f6f6;
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin-bottom: 50px;
+  }
+
+  .text-btns {
+    display: flex;
+    gap: 50px;
+
+    .text-btn {
+      background-color: #22d4fd;
+      border: 1px solid #22d4fd;
+      border-radius: 16px;
+      width: 280px;
+      height: 80px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      color: black;
+      font-size: 24px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 600;
+      text-decoration: none;
+    }
+
+    .text-btn:hover {
+      background-color: #009cbf;
+    }
+  }
+}
